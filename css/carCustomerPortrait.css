@@ -1,0 +1,670 @@
+#carCustomerPortrait {
+	margin: 30px;
+}
+body {
+	font-family: "Helvetica Neue";
+    font-size: 12px;
+    color: #333;
+	background-color: #F7F7F8;
+}
+.font-blue {
+	color: #666;
+}
+.simple-breadcrumb {
+	height: 17px;
+    margin: 20px 0;
+    color: #666;
+}
+.modal-content {
+	box-shadow:0 5px 10px rgba(0,0,0,.3)!important;
+}   
+#carCustomerPortrait {
+	background-color: #F7F7F8;
+}
+#info {
+	width: 100%;
+	position:relative;
+	background: #fff;
+}
+#indexForm {
+	position: relative;
+	padding: 30px 0 8px 30px;
+	background-color:#fff;
+}
+.line {
+	width: 10px;
+	height: 1px;
+	vertical-align: middle;
+	background-color: #ccc;
+	display: inline-block;
+}
+.label_key {
+	margin-right: 8px;
+	width: 130px;
+	vertical-align: middle;
+	text-align: right;
+	font-weight: 0;
+	color:#666;
+}
+.row {
+	margin-bottom: 20px;
+}
+select {
+	/*width: 50px;*/
+	height: 25px;
+}
+label {
+	position: relative;
+	font-weight:normal!important;
+}
+.w40 {
+	width: 40px!important;
+}
+.w80 {
+	width: 80px;
+}
+.w60 {
+	width: 60px;
+}
+.w100 {
+	width: 100px;
+}
+.mar20 {
+	margin-right: 20px;
+}
+.newcar_price_inp {
+	outline: none;
+	border-radius:4px;
+	border: 1px solid #ccc;
+	text-indent: 5px;
+}
+/* indexDeatil*/
+.radio-inline{
+	position: relative;
+}
+.checkbox-inline {
+	position:relative!important;
+}
+.change_time {
+	display: inline-block;
+    vertical-align: middle;
+}
+.btn-info {
+	border-color:#1D86F4!important;
+}
+.btn-info-base {
+	color: #666666; 
+    background-color: #fff;
+    border-color: #D8D8D8;
+}
+#count {
+	border-radius: 2px!important;
+}
+#reset {
+	border-radius: 2px!important;
+}
+#export_table {
+	border-radius: 2px!important;
+	outline : none!important;
+}
+.btn-group {
+	border-radius: 4px!important;
+}
+.count_reset {
+	text-align:center;
+}
+.count_reset button {
+	height: 28px;
+    padding: 0 16px;
+    border-radius: 2px;
+    margin: 0 2px;
+	outline: none!important;
+}
+.show_more {
+    width: 69px;
+    position: absolute;
+    right: 30px;
+    height: 30px;
+    top: 20px;
+    cursor: pointer;
+}
+#show_more_btn {
+	padding: 5px 28px;
+	padding-left: 10px;
+    background: #F8F8F8;
+    border: 1px solid #E8E8E8;
+    border-radius: 2px;
+    outline: none;
+    display:block;
+}
+.show_more img {
+	position: absolute;
+    top: 7px;
+    right: 10px;
+}
+.title_icon {
+	position: absolute;
+    top: 22px;
+    width: 2px;
+    height: 16px;
+    background: #000;
+}
+.btn-group > .btn, .btn-group-vertical > .btn {
+	height: 28px;
+    padding: 0 15px;
+    outline: none;
+	padding-right: 31px;
+	overflow: hidden!important;
+}
+.carat{
+	position: absolute;
+	right: 5px;
+	top: 57%;
+	margin-top: -4px;
+	border: 12px solid transparent;
+	/*border-top: 8px solid #000;*/
+	background: url("../img/small_xl.png") no-repeat scroll bottom center transparent;
+}
+.carat {
+	display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-top: 4px solid\9;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent
+}
+.btn-group .dropdown-toggle:after {
+	content: ' ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -3px;
+    border-width: 5px 5px 0 5px;
+    border-color: #80848f transparent transparent transparent;
+    transform: scaleX(0.8);
+}
+.btn-group.open .dropdown-toggle:after {
+	content: ' ';
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 7px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    margin-top: -3px;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #80848f transparent;
+    transform: scaleX(0.8);
+}
+.title_font {
+	font-size:16px;
+	font-weight:600;
+	margin-left: 8px;
+}
+.countResult_table_left {
+	padding-top: 20px;
+	padding-left: 0px;
+}
+.countResult_table_right  {
+	padding-right: 0px;
+}
+.countResult_table_left span{
+	display:inline-block;
+}
+#export_table {
+	padding: 0 16px;
+    border-radius: 2px;
+    height: 28px;
+	background:#1D86F4;
+	float: right;
+    margin-top: 20px;
+}
+.export_icon {
+	margin: -4px 5px 0 0;
+}
+#t_menu {
+	/* width: 100%; */
+	/* padding: 0 20px; */
+	margin: 10px 0 	10px 0;
+	border-bottom: 2px solid #C0DFFF;
+	margin-left: 40px;
+}
+.t_menu_tab {
+	margin-left: -24px;
+}
+.bootstrap-table {
+	margin-left:12px;
+}
+#t_menu span {
+	/*border-bottom: 2px solid #C0DFFF;*/
+/* 	letter-spacing: normal; */
+/* 	word-spacing: normal; */
+	margin-bottom: -3px;
+	font-size: 14px;
+	display: inline-block;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #666666;
+	/* padding: 0px 30px; */
+	cursor: pointer;
+	margin-left: 25px;
+}
+#t_menu span:hover {
+	color: #1d86f4;
+}
+#carType_tab_div {
+	background-color:#fff;
+	padding: 0 30px;
+}
+#t_menu span.t_m_act {
+	color: #1d86f4;
+	border-bottom: 4px solid #1D86F4;
+}
+.sel_city {
+		position: relative;
+	}
+.select_city {
+      position: absolute;
+      left: 118px;
+      border-radius: 5px;
+      border: 1px solid #eee;
+      box-shadow: 0 0 10px #F3F3F3;
+      z-index: 10000000;
+	}
+.area-duoxuan {
+	outline: none;
+	border-radius: 4px;
+	border: 1px solid #CECFCE;
+	height: 28px;
+	text-indent: 12px;
+	width: 200px;
+	text-overflow: ellipsis;
+	}
+.change_inp {
+	  width: 200px;
+	  outline: none;
+      border-radius: 5px;
+      border: 1px solid #CECFCE;
+      height: 28px;
+      text-indent: 5px;
+}
+/* placeholder */
+input::-webkit-input-placeholder {
+      color: #A9A9A9!important;
+ }
+.UiFuLi {
+ 	  height: 200px;
+   	  overflow-y: auto;
+ }
+/*  table 样式 */
+.table-hover>tbody>tr:hover {
+	background-color: #EBF7FF;
+}
+.bootstrap-table .table {
+	border-bottom:none!important;
+}
+.bootstrap-table .table>thead>tr>th {
+	border-bottom: 1px solid #ddd
+}
+#carType_table thead tr th {
+	outline:none;
+	background-color:#F5F7F9!important;
+	text-align: left!important;
+	padding-left: 15px;
+	padding-right: 30px;
+}
+#carType_table tbody tr td {
+	text-align: left!important;
+	padding-left: 22px;
+}
+#carType_table thead tr:first-child{
+	background:#F5F7F9;
+}
+.newcar_price_inp {
+	height:28px;
+}
+.pagination li a {
+	color:#000!important;
+}
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    border-color: #1886F7!important;
+    color:#1886F7!important;
+    background-color:#fff!important;
+}
+.pagination>.disabled>a, .pagination>.disabled>a:focus, .pagination>.disabled>a:hover, .pagination>.disabled>span, .pagination>.disabled>span:focus, .pagination>.disabled>span:hover {
+	cursor: not-allowed!important;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	cursor: not-allowed!important;
+	background-color: #1D86F4!important;
+	color: #fff!important;
+	border-color: #1D86F4!important
+}
+.pagination {
+	margin:0!important;	
+}
+.pagination li a {
+	font-family: Simsun;
+}
+/* 城市下拉框的位置 */
+#cityCheck_modal {
+	left: 185px!important;
+    top: 261px!important;
+    z-index: 10;
+}
+.btn {
+	font-size:12px!important;
+	border-radius: 4px!important;
+}
+//去掉下拉的 hover 事件
+.btn-default {
+	color: #000!important;
+}
+.btn-default.active.focus, .btn-default.active:focus, .btn-default.active:hover, .btn-default:active.focus, .btn-default:active:focus, .btn-default:active:hover, .open>.dropdown-toggle.btn-default.focus, .open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover {
+	background-color: #fff!important;
+	border-color:none!important;
+}
+.btn-default:hover {
+	background-color: #fff!important;
+	cursor: pointer;
+	border-color:none!important;
+}
+.multiselect:hover {
+ 	background-color: #F3F3F3!important;
+	cursor: pointer;
+	border-color:none!important;
+}
+.btn-default.focus, .btn-default:focus {
+	background-color: #fff!important;
+	outline:noneimportant;
+	border-color:none!important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	background-color: #EBF7FF!important;
+	cursor: pointer;
+	border-color:none!important;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover {
+	background-color: #EBF7FF!important;
+	color: #000!important;
+}
+.btn-info:hover {
+	color: #fff;
+    background-color: #0e75e1!important;
+    border-color: #0e75e1!important;
+}
+.btn-info-base:hover {
+	color: #333;
+    background-color: #f0f0f0!important;
+    border-color: #d5d5d5!important;
+}
+/* 下拉点击去掉发光边框 */
+.dropdown-menu {
+	font-size: 12px!important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+	outline: none!important;
+}
+.bootstrap-select .dropdown-toggle:focus {
+	outline: none!important;
+	border-color: #1d86f4;
+}
+.fixed-table-container {
+	border-color: #d7dde4!important;
+	border-radius: 0px!important;
+	margin-bottom: 20px;
+}
+/* 分割线颜色＃e3e8ee */
+.fixed-table-container tbody td {
+	border-color: #e3e8ee!important;
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+	background-color: #fff!important;
+}
+
+.form-control {
+	height: 28px;
+}
+#prompt_msg {
+	padding: 0 10px;
+    display: block;
+    margin-left: 134px;
+    color: #e9474d;
+}
+#prompt_errormsg {
+	position: absolute;
+	padding: 0 10px;
+    display: block;
+    margin-left: 134px;
+    color: #e9474d;
+}
+.bootstrap-select.btn-group.disabled, .bootstrap-select.btn-group > .disabled {
+	background: #f0f0f0!important;
+}
+.bootstrap-select.btn-group.disabled, .bootstrap-select.btn-group > .disabled:hover{
+	background: #f0f0f0!important;
+}
+#carType_table .no-records-found td {
+	padding-bottom: 20px!important;
+    text-align: center!important;
+}
+.warn_icon {
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+}
+.popover.top {
+	top:-15px!important;
+	left:145px!important;
+	max-width: 430px!important;
+}
+.popover-content {
+    font-size: 12px;
+}
+.page-numbers {
+	margin-left: 5px!important;
+    margin-top: 2px!important;
+}
+.disabledSP {
+	pointer-events: none;
+    cursor: default;
+    opacity: 0.6;
+}
+#carseriesInfo {
+	font-size: 16px;
+    text-align: center;
+    font-weight: normal;
+    padding-bottom: 26px;
+}
+/* 导出失败提示 */
+.download{
+	width:280px;
+	background:rgba(51,51,51,.8);
+	color:#fff;
+	position:fixed;
+	top:50%;
+	left:50%;
+	margin-top:-35px;
+	margin-left:-140px;
+	border-radius:5px;
+	text-align:center;
+	font-size:18px;
+	padding:15px 10px;
+	z-index:10000;
+}
+.download .right-cirle{
+	width:36px;
+	height:36px;
+	line-height:26px;
+	text-align:center;
+	border-radius:50%;
+	display:inline-block;
+	border:1px solid #fff;
+	vertical-align:middle;
+	margin-right:12px;
+	font-size:35px;
+}
+.download-success .right-cirle{
+	line-height:10px;
+}
+.download .right-cirle i{
+	width:16px;
+	height:8px;
+	display:inline-block;
+	border-left:2px solid #fff;
+	border-bottom:2px solid #fff;
+	transform:rotate(-45deg);
+}
+.hide{
+	display:none;
+}
+/* 新增导出弹层 */
+.modal-header {
+    border-radius: 5px 5px 0 0;
+    padding-left: 20px;
+    background: #f5f7f9!important;
+    padding: 4px 20px;
+    border-radius: 5px 5px 0 0;
+}
+#export_modal .modal-dialog .modal-content .modal-body {
+    height: 220px!important;
+    padding: 30px 30px!important;
+}
+#export_modal .modal-dialog .modal-content .modal-footer {
+    border-top:0px!important;
+}
+#cityCheck_modal .modal-content .modal-body {
+    height: 300px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+#cityCheck_modal .modal-content .modal-footer {
+	background-color: #F5F7F9;
+	margin-top: 10px;
+}
+.tbheader {
+	line-height: 25px;
+}
+.table_header {
+	padding-bottom: 30px;
+	position: relative;
+}
+.modal-title {
+    line-height: 2.25rem;
+    font-size: 14px;
+    color: #000;
+}
+#close {
+    outline: none!important;
+    margin-top: 2px;
+}
+#export_modal .modal-dialog .modal-content .modal-body .modal-footer button {
+    border-radius: 2px!important;
+}
+.btn-primary {
+    background-color: #1D86F4;
+    border-color: #1D86F4;
+    line-height: 14px;
+    padding: 6px 16px;
+    font-size: 14px!important;
+}
+.btn-default {
+	background-color: #fff;
+    border-color: #ccc;
+    color: #666!important;
+    line-height: 14px;
+    padding: 6px 16px;
+}
+#export_modal {
+	top:80px!important;
+}
+#qx_msg {
+	padding: 0 10px;
+    color: #e9474d;
+    position: absolute;
+    left: 226px;
+    top: 0px;
+}
+/* 二期迭代新增样式 */
+.sel_length {
+    outline: none;
+    border-radius: 4px;
+    border: 1px solid #C1C1C1;
+    height: 28px;
+    text-indent: 10px;
+    width: 200px;
+    text-overflow: ellipsis;
+    position: absolute;
+    top: -2px;
+    left: 348px;
+}
+.lab_rad {
+	margin-bottom:0px!important;
+}
+#productSel {
+	position: relative;
+}
+#clueSource .btn-group .bs-searchbox .form-control{
+    border: none;
+    box-shadow: none;
+    font-size: 12px;
+}
+#clueSource .bs-searchbox + .bs-actionsbox {
+    padding: 0 18px 4px!important;
+}
+#clueSource .bs-select-all {
+    background: #1d86f4;
+    color: #fff!important;
+    border-color: #1d86f4;
+}
+#clueSource .dropdown-menu .bs-actionsbox .btn-group .bs-select-all:hover {
+    color: #fff;
+    background-color: #0972E5!important;
+    border-color: #0972E5!important;
+}
+#clueSource .actions-btn {
+    height: 28px!important;
+    width: 47%!important;
+    border-radius: 2px!important;
+}
+#clueSource .btn-default {
+    color: #333;
+    border-color: #ccc;
+}
+#clueSource .btn-group-sm>.btn, .btn-sm {
+    padding: 0 25px!important;
+}
+#clueSource .bs-deselect-all {
+    margin-left: 8px!important;
+    outline: none!important;
+}
+.dropdown-menu .bs-actionsbox .btn-group .bs-deselect-all:hover {
+    color: #333;
+    background-color: #f0f0f0!important;
+    border-color: #d5d5d5!important;
+}
+.bootstrap-select.btn-group.show-tick .dropdown-menu li.selected a span.check-mark {
+    color: #1d86f4!important;
+}
+#user_def:disabled{
+border:1px solid #DDD;
+background-color: #f0f0f0;
+color:#ACA899;
+}
+#custom_msg {
+    position: absolute;
+    padding: 0 10px;
+    display: block;
+    left: 340px;
+    top: 25px;
+    color: #e9474d
+}
